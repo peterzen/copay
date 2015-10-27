@@ -311,7 +311,7 @@ angular.module('copayApp.directives')
         negative: "="
       },
       controller: function($scope) {
-        $scope.logo_url = $scope.negative ? 'img/logo-negative.png' : 'img/logo.png';
+        $scope.logo_url = $scope.negative ? 'img/logo2.png' : 'img/logo.png';
       },
       replace: true,
       template: '<img ng-src="{{ logo_url }}" alt="Copay">'

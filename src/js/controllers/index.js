@@ -118,7 +118,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
         self.openWallet();
       } else {
         storageService.getBackupFlag(self.walletId, function(err, val) {
-          self.needsBackup = self.network == 'testnet' ? false : !val;
+          self.needsBackup = self.network == 'dcrdtestnet' ? false : !val;
           self.openWallet();
         });
       }
@@ -555,7 +555,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
   self.updateColor = function() {
     var config = configService.getSync();
     config.colorFor = config.colorFor || {};
-    self.backgroundColor = config.colorFor[self.walletId] || '#4A90E2';
+    self.backgroundColor = config.colorFor[self.walletId] || '#1D617D';
     var fc = profileService.focusedClient;
     fc.backgroundColor = self.backgroundColor;
   };
@@ -736,12 +736,12 @@ angular.module('copayApp.controllers').controller('indexController', function($r
             if (it.action == 'moved')
               _note += ' Moved:' + (it.amount * satToBtc).toFixed(8)
 
-            dataString = formatDate(it.time * 1000) + ',' + formatString(it.addressTo) + ',' + _note + ',' + _amount + ',BTC,,,,';
+            dataString = formatDate(it.time * 1000) + ',' + formatString(it.addressTo) + ',' + _note + ',' + _amount + ',DCR,,,,';
             csvContent += dataString + "\n";
 
             if (it.fees && (it.action == 'moved' || it.action == 'sent')) {
               var _fee = (it.fees * satToBtc).toFixed(8)
-              csvContent += formatDate(it.time * 1000) + ',Bitcoin Network Fees,, -' + _fee + ',BTC,,,,' + "\n";
+              csvContent += formatDate(it.time * 1000) + ',Bitcoin Network Fees,, -' + _fee + ',DCR,,,,' + "\n";
             }
           });
 
@@ -835,7 +835,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
   self.initGlidera = function(accessToken) {
     self.glideraEnabled = configService.getSync().glidera.enabled;
     self.glideraTestnet = configService.getSync().glidera.testnet;
-    var network = self.glideraTestnet ? 'testnet' : 'livenet';
+    var network = self.glideraTestnet ? 'dcrdtestnet' : 'dcrdlivenet';
 
     self.glideraToken = null;
     self.glideraError = null;
@@ -1064,7 +1064,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
       });
     } else if (self.hasUnsafeConfirmed) {
       $log.debug('Wallet has transactions with few confirmations. Updating.')
-      if (self.network == 'testnet') {
+      if (self.network == 'dcrdtestnet') {
         self.debouncedUpdateHistory();
       } else {
         self.updateTxHistory();

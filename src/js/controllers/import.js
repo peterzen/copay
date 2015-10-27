@@ -177,7 +177,7 @@ angular.module('copayApp.controllers').controller('importController',
 
 
       opts.passphrase = form.passphrase.$modelValue || null;
-      opts.networkName = form.isTestnet.$modelValue ? 'testnet' : 'livenet';
+      opts.networkName = form.isTestnet.$modelValue ? 'dcrdtestnet' : 'dcrdlivenet';
 
       _importMnemonic(words, opts);
     };

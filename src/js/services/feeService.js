@@ -10,7 +10,7 @@ angular.module('copayApp.services').factory('feeService', function($log, profile
     economy: gettextCatalog.getString('Economy')
   };
 
-  root.getCurrentFeeValue = function(currentSendFeeLevel, cb) { 
+  root.getCurrentFeeValue = function(currentSendFeeLevel, cb) {
     var fc = profileService.focusedClient;
     var config = configService.getSync().wallet.settings;
     var feeLevel = currentSendFeeLevel || config.feeLevel || 'normal';
@@ -23,18 +23,18 @@ angular.module('copayApp.services').factory('feeService', function($log, profile
       else {
         fee = lodash.find(levels, { level: feeLevel }).feePerKB;
         $log.debug('Dynamic fee: ' + feeLevel + ' ' + fee +  ' SAT');
-        return cb(null, fee); 
+        return cb(null, fee);
       }
     });
-  }; 
+  };
 
-  root.getFeeLevels = function(cb) { 
+  root.getFeeLevels = function(cb) {
     var fc = profileService.focusedClient;
     var config = configService.getSync().wallet.settings;
     var unitName = config.unitName;
 
-    fc.getFeeLevels('livenet', function(errLivenet, levelsLivenet) {
-      fc.getFeeLevels('testnet', function(errTestnet, levelsTestnet) {
+    fc.getFeeLevels('dcrdlivenet', function(errLivenet, levelsLivenet) {
+      fc.getFeeLevels('dcrdtestnet', function(errTestnet, levelsTestnet) {
         if (errLivenet || errTestnet) $log.debug('Could not get dynamic fee');
         else {
           for (var i = 0; i < 3; i++) {
@@ -44,8 +44,8 @@ angular.module('copayApp.services').factory('feeService', function($log, profile
         }
 
         return cb({
-          'livenet': levelsLivenet,
-          'testnet': levelsTestnet
+          'dcrdlivenet': levelsLivenet,
+          'dcrdtestnet': levelsTestnet
         });
       });
     });

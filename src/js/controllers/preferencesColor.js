@@ -16,6 +16,7 @@ angular.module('copayApp.controllers').controller('preferencesColorController',
       '#E856EF',
       '#FF599E',
       '#7A8C9E',
+      '#1D617D',
     ];
 
     var fc = profileService.focusedClient;
@@ -23,7 +24,7 @@ angular.module('copayApp.controllers').controller('preferencesColorController',
 
     var config = configService.getSync();
     config.colorFor = config.colorFor || {};
-    this.color = config.colorFor[walletId] || '#4A90E2';
+    this.color = config.colorFor[walletId] || '#1D617D';
 
     this.save = function(color) {
       var self = this;

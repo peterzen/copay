@@ -40,7 +40,7 @@ angular.module('copayApp.controllers').controller('preferencesGlideraController'
     }
 
     this.revokeToken = function(testnet) {
-      var network = testnet ? 'testnet' : 'livenet';
+      var network = dcrdtestnet ? 'dcrdtestnet' : 'dcrdlivenet';
       var ModalInstanceCtrl = function($scope, $modalInstance) {
         $scope.ok = function() {
           $modalInstance.close(true);

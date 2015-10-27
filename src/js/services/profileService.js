@@ -168,7 +168,7 @@ angular.module('copayApp.services')
     root._seedWallet = function(opts, cb) {
       opts = opts || {};
       var walletClient = bwcService.getClient();
-      var network = opts.networkName || 'livenet';
+      var network = opts.networkName || 'dcrdtestnet';
 
       if (opts.mnemonic) {
         try {
@@ -221,7 +221,7 @@ angular.module('copayApp.services')
         var walletName = gettextCatalog.getString('Personal Wallet');
         var me = gettextCatalog.getString('me');
         walletClient.createWallet(walletName, me, 1, 1, {
-          network: 'livenet'
+          network: 'dcrdtestnet'
         }, function(err) {
           if (err) return bwsError.cb(err, gettext('Error creating wallet'), cb);
           var p = Profile.create({

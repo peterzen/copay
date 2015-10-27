@@ -22,7 +22,8 @@ var RateService = function(opts) {
   self.UNAVAILABLE_ERROR = 'Service is not available - check for service.isAvailable() or use service.whenAvailable()';
   self.UNSUPPORTED_CURRENCY_ERROR = 'Currency not supported';
 
-  self._url = opts.url || 'https://insight.bitpay.com:443/api/rates';
+  //self._url = opts.url || 'https://127.0.0.1:3004/api/rates';
+  self._url = opts.url || '';
 
   self._isAvailable = false;
   self._rates = {};
@@ -46,7 +47,8 @@ RateService.prototype._fetchCurrencies = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://bitpay.com/api/rates';
+  //var rateServiceUrl = 'https://127.0.0.1:3004/api/rates';
+  var rateServiceUrl = '';
 
   var retrieve = function() {
     //log.info('Fetching exchange rates');

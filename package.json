@@ -2,7 +2,7 @@
   "name": "copay",
   "description": "A multisignature wallet",
   "author": "BitPay",
-  "version": "1.2.5",
+  "version": "1.2.5D",
   "keywords": [
     "wallet",
     "copay",
@@ -30,14 +30,14 @@
     "plugin": false
   },
   "id": "jid1-x7bV5evAaI1P9Q",
-  "homepage": "https://github.com/bitpay/copay",
+  "homepage": "https://github.com/decred/copay",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/bitpay/copay.git",
+    "url": "git://github.com/decred/copay.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/copay/issues"
+    "url": "https://github.com/decred/copay/issues"
   },
   "dependencies": {
     "express": "^4.11.2",
@@ -69,6 +69,7 @@
     "karma-cli": "0.0.4",
     "karma-coverage": "^0.2.7",
     "karma-jasmine": "^0.3.5",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "karma-phantomjs-launcher": "^0.1.4",
+    "jasmine-core": "2.3.4"
   }
 }

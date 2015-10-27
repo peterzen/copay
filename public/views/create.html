@@ -121,7 +121,9 @@
             </label>
 
             <label  ng-show="!hwLedger" for="seed" class="oh">
-              <span translate>Specify your wallet seed</span>
+              <span translate>Specify your wallet seed.</span>
+	      <span class="text-alert">NOTE: You should only use ONE wallet at a time
+	      with a given seed, the webwallet or dcrwallet, not both!</span>
               <switch id="seed" name="setSeed" ng-model="setSeed" class="green right m5t m10b"></switch>
             </label>
 

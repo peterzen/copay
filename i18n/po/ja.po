@@ -30,6 +30,10 @@ msgstr "* 送金の提案の取下げは①他のウォレット参加者に署�
 msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
 msgstr "<b>Copayウォレットとその中にある秘密鍵の情報を紛失してしまい、尚且つバックアップが無い、若しくはそのバックアップを暗号化した際のパスワードが分からないなどの状況に陥ってしまえば、そのウォレットに含まれた全てのビットコインが永久送金不可能となってしまうことを認識し、同意するものとします。</b>"
 
+#: public/views/disclaimer.html
+msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY DECRED YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
+msgstr "<b>Copayウォレットとその中にある秘密鍵の情報を紛失してしまい、尚且つバックアップが無い、若しくはそのバックアップを暗号化した際のパスワードが分からないなどの状況に陥ってしまえば、そのウォレットに含まれた全てのDECREDが永久送金不可能となってしまうことを認識し、同意するものとします。</b>"
+
 #: public/views/backup.html
 msgid "<b>OR</b> 1 wallet export file and the remaining quorum of wallet seeds (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet seeds of any of the other copayers)."
 msgstr "<b>または</b> 従来ウォレットエクスポートファイル１つに加えて残りの必須人数の復元フレーズ (例： 3-of-5 ウォレットでは従来ウォレットバックアップ１つに加え、他の参加者２人分の復元フレーズさえあればウォレットは復元できます)"
@@ -46,9 +50,17 @@ msgstr "<b>または</b> 参加者 <b>全員</b> のウォレット復元フレ�
 msgid "A multisignature bitcoin wallet"
 msgstr "マルチシグネチャビットコインウォレット"
 
+#: public/views/splash.html
+msgid "A multisignature decred wallet"
+msgstr "マルチシグネチャdecredウォレット"
+
 #: public/views/preferences.html
 msgid "About Copay"
 msgstr "Copayについて"
+
+#: public/views/preferences.html
+msgid "About Decred Web Wallet"
+msgstr "Decred Web Walletについて"
 
 #: public/views/modals/txp-details.html
 #: src/js/services/confirmDialog.js
@@ -187,6 +199,10 @@ msgstr "ビットコインをもらう前に、このウォレットのバック
 msgid "Bitcoin Network Fee Policy"
 msgstr "ビットコインネットワークの手数料設定"
 
+#: public/views/preferences.html
+msgid "Decred Network Fee Policy"
+msgstr "Decredネットワークの手数料設定"
+
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
 msgstr "Bitcoin URI が無効です！"
@@ -195,9 +211,17 @@ msgstr "Bitcoin URI が無効です！"
 msgid "Bitcoin address"
 msgstr "ビットコインアドレス"
 
+#: public/views/walletHome.html
+msgid "Decred address"
+msgstr "Decredアドレス"
+
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
 msgstr "円滑な送金をしていただくために、ビットコインの送金には少量の手数料を付けることが義務付けられております。この手数料はビットコインのネットワークを運用する人たちに寄付され、より高い手数料であればより優先的にブロックに含まれ、承認されます。選択された手数料基準やネットワークの混雑状況により、実際に払われる手数料が変動することがあります。"
+
+#: public/views/preferencesFee.html
+msgid "Decred transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
+msgstr "円滑な送金をしていただくために、Decredの送金には少量の手数料を付けることが義務付けられております。この手数料はビットコインのネットワークを運用する人たちに寄付され、より高い手数料であればより優先的にブロックに含まれ、承認されます。選択された手数料基準やネットワークの混雑状況により、実際に払われる手数料が変動することがあります。"
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -696,6 +720,10 @@ msgstr "インポート中…"
 msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
 msgstr "和訳は簡単な要約と考えて下さい。"
 
+#: public/views/disclaimer.html
+msgid "In no event shall the authors of the software, employees and affiliates of Company 0, LLC, or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgstr "In no event shall the authors of the software, employees and affiliates of Company 0, LLC, or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+
 #: src/js/services/bwsError.js
 msgid "Incorrect address network"
 msgstr "アドレスのネットワークが不正です。"
@@ -819,6 +847,10 @@ msgstr "マルチシグネチャウォレット"
 #: public/views/walletHome.html
 msgid "My Bitcoin address"
 msgstr "私のビットコインアドレス："
+
+#: public/views/walletHome.html
+msgid "My Decred address"
+msgstr "私のDecredアドレス："
 
 #: public/views/paymentUri.html
 msgid "Network"
@@ -1309,6 +1341,10 @@ msgstr "Ledgerのクロームアプリがインストールされていません
 msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
 msgstr "このソフトの開発者、BitPayの従業員とその関係者、著作権所有者、BitPay, Inc. 自体もパスワード・秘密鍵・パスワードなどへのアクセスが不可能なため、教えることがだきません、なお、ビットコインのネットワークへの影響が無いので、取引の取り消しや優先的な承認などはできません。"
 
+#: public/views/disclaimer.html
+msgid "The authors of the software, employees and affiliates of Company 0, LLC, and copyright holders cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Decred network."
+msgstr "The authors of the software, employees and affiliates of Company 0, LLC, and copyright holders cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Decred network."
+
 #: src/js/controllers/walletHome.js
 msgid "The payment was created but could not be completed. Please try again from home screen"
 msgstr "送金の提案は作成されましたが完了できませんでした。ホーム画面からやり直して下さい。"
@@ -1337,6 +1373,10 @@ msgstr "復元フレーズにパスワードをかけた場合、ここにパス
 #: public/views/disclaimer.html
 msgid "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
 msgstr "BitPay, Inc. 若しくはその他の第三者がアクセス権限を管理する、若しくはデジタル資産の代理保管を行うサービスではありません。"
+
+#: public/views/disclaimer.html
+msgid "The software does not constitute an account where Company 0, LLC or other third parties serve as financial intermediaries or custodians of your decred."
+msgstr "The software does not constitute an account where Company 0, LLC or other third parties serve as financial intermediaries or custodians of your decred."
 
 #: public/views/disclaimer.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."
@@ -1423,6 +1463,10 @@ msgstr "翻訳者"
 msgid "Type the Seed Word (usually 12 words)"
 msgstr "復元フレーズの単語 (通常 12 個) を入力して下さい。"
 
+#: public/views/import.html
+msgid "Type the Seed Word (usually 33 words)"
+msgstr "復元フレーズの単語 (通常 33 個) を入力して下さい。"
+
 #: src/js/controllers/walletHome.js
 msgid "Unable to send transaction proposal"
 msgstr "取引提案を送れませんでした。"
@@ -1498,6 +1542,10 @@ msgstr "注意：ウォレットが未登録"
 #: public/views/splash.html
 msgid "WELCOME TO COPAY"
 msgstr "ようこそ COPAY へ"
+
+#: public/views/splash.html
+msgid "WELCOME TO DECRED WEB WALLET"
+msgstr "ようこそ DECRED WEB WALLET へ"
 
 #: public/views/copayers.html
 msgid "Waiting for copayers"

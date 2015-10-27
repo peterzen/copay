@@ -21,7 +21,7 @@ angular.module('copayApp.controllers').controller('preferencesAltCurrencyControl
     rateService.whenAvailable(function() {
       self.alternativeOpts = rateService.listAlternatives();
       lodash.remove(self.alternativeOpts, function(n) {
-        return n.isoCode == 'BTC';
+        return n.isoCode == 'DCR';
       });
 
       for (var ii in self.alternativeOpts) {

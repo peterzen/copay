@@ -42,7 +42,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     var form = $scope.sendForm;
     if (form.address.$invalid && !self.blockUx) {
       self.resetForm();
-      self.error = gettext('Could not recognize a valid Bitcoin QR Code');
+      self.error = gettext('Could not recognize a valid Decred QR Code');
     }
   });
 
@@ -442,7 +442,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
       if (isMobile.Android() || isMobile.Windows()) {
         window.ignoreMobilePause = true;
       }
-      window.plugins.socialsharing.share('bitcoin:' + addr, null, null, null);
+      window.plugins.socialsharing.share('decred:' + addr, null, null, null);
     }
   };
 
@@ -504,8 +504,9 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
         var amountSat = parseInt((amount * $scope.unitToSatoshi).toFixed(0));
         $timeout(function() {
           $scope.customizedAmountUnit = amount + ' ' + $scope.unitName;
-          $scope.customizedAlternativeUnit = $filter('noFractionNumber')(form.alternative.$modelValue, 2) + ' ' + $scope.alternativeIsoCode;
-          if ($scope.unitName == 'bits') {
+	  // Until we support alternative currenties (i.e., USD), this line is an issue.
+          //$scope.customizedAlternativeUnit = $filter('noFractionNumber')(form.alternative.$modelValue, 2) + ' ' + $scope.alternativeIsoCode;
+          if ($scope.unitName == 'dbits') {
             amount = (amountSat * satToBtc).toFixed(8);
           }
           $scope.customizedAmountBtc = amount;
@@ -1056,7 +1057,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
     if (this._paypro)
       return value;
 
-    if (value.indexOf('bitcoin:') === 0) {
+    if (value.indexOf('decred:') === 0) {
       return this.setFromUri(value);
     } else if (/^https?:\/\//.test(value)) {
       return this.setFromPayPro(value);
@@ -1159,7 +1160,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
 
   this.sendAll = function(amount, feeStr, feeRate) {
     var self = this;
-    var msg = gettextCatalog.getString("{{fee}} will be deducted for bitcoin networking fees", {
+    var msg = gettextCatalog.getString("{{fee}} will be deducted for decred networking fees", {
       fee: feeStr
     });
 

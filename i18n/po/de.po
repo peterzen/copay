@@ -30,6 +30,10 @@ msgstr "* Ein Zahlungsvorschlag kann gelöscht werden, wenn 1) Du diesen erzeugt
 msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
 msgstr "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY BITCOIN YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
 
+#: public/views/disclaimer.html
+msgid "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY DECRED YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
+msgstr "<b>IF YOU LOSE ACCESS TO YOUR COPAY WALLET OR YOUR ENCRYPTED PRIVATE KEYS AND YOU HAVE NOT SEPARATELY STORED A BACKUP OF YOUR WALLET AND CORRESPONDING PASSWORD, YOU ACKNOWLEDGE AND AGREE THAT ANY DECRED YOU HAVE ASSOCIATED WITH THAT COPAY WALLET WILL BECOME INACCESSIBLE.</b>"
+
 #: public/views/backup.html
 msgid "<b>OR</b> 1 wallet export file and the remaining quorum of wallet seeds (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet seeds of any of the other copayers)."
 msgstr "<b>OR</b> 1 wallet export file and the remaining quorum of wallet seeds (e.g. in a 3-5 wallet: 1 wallet export file + 2 wallet seeds of any of the other copayers)."
@@ -46,9 +50,17 @@ msgstr "<b>OR</b> the wallet seeds of <b>all</b> copayers in the wallet"
 msgid "A multisignature bitcoin wallet"
 msgstr "Ein Bitcoin Wallet mit Mehrfachunterschriften"
 
+#: public/views/splash.html
+msgid "A multisignature decred wallet"
+msgstr "Ein Decred Wallet mit Mehrfachunterschriften"
+
 #: public/views/preferences.html
 msgid "About Copay"
 msgstr "Über Copay"
+
+#: public/views/preferences.html
+msgid "About Decred Web Wallet"
+msgstr "Über Decred Web Wallet"
 
 #: public/views/modals/txp-details.html
 #: src/js/services/confirmDialog.js
@@ -186,6 +198,10 @@ msgstr "Bevor Beträge empfangen werden, wird dringend empfohlen die Wallet Schl
 msgid "Bitcoin Network Fee Policy"
 msgstr "Bitcoin-Netzwerk Gebührenübersicht"
 
+#: public/views/preferences.html
+msgid "Decred Network Fee Policy"
+msgstr "Decred-Netzwerk Gebührenübersicht"
+
 #: public/views/paymentUri.html
 msgid "Bitcoin URI is NOT valid!"
 msgstr "Bitcoin URI ist NICHT gültig!"
@@ -194,9 +210,17 @@ msgstr "Bitcoin URI ist NICHT gültig!"
 msgid "Bitcoin address"
 msgstr "Bitcoinadresse"
 
+#: public/views/walletHome.html
+msgid "Decred address"
+msgstr "Decredadresse"
+
 #: public/views/preferencesFee.html
 msgid "Bitcoin transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
 msgstr "Für Bitcoin-Transaktionen können Gebühren hinzugefügt werden. Transaktionen mit höheren Gebühren werden meist schneller verarbeitet und bestätigt. Die tatsächlichen Gebühren werden anhand der Netzwerklast und der ausgewählte Richtlinie bestimmt."
+
+#: public/views/preferencesFee.html
+msgid "Decred transactions may include a fee collected by miners on the network. The higher the fee, the greater the incentive a miner has to include that transaction in a block. Actual fees are determined based on network load and the selected policy."
+msgstr "Für Decred-Transaktionen können Gebühren hinzugefügt werden. Transaktionen mit höheren Gebühren werden meist schneller verarbeitet und bestätigt. Die tatsächlichen Gebühren werden anhand der Netzwerklast und der ausgewählte Richtlinie bestimmt."
 
 #: public/views/modals/txp-details.html
 msgid "Broadcast Payment"
@@ -695,6 +719,12 @@ msgstr "Importiere..."
 msgid "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
 msgstr "In no event shall the authors of the software, employees and affiliates of Bitpay, copyright holders, or BitPay, Inc. be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
 
+#: public/views/disclaimer.html
+msgid "In no event shall the authors of the software, employees and
+affiliates of Company 0, LLC, or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+msgstr "In no event shall the authors of the software, employees and
+affiliates of Company 0, LLC, or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort, or otherwise, arising from, out of or in connection with the software."
+
 #: src/js/services/bwsError.js
 msgid "Incorrect address network"
 msgstr "Falsche Netzwerk-Adresse"
@@ -818,6 +848,10 @@ msgstr "Gemeinschaftliches Wallet"
 #: public/views/walletHome.html
 msgid "My Bitcoin address"
 msgstr "Eigene Bitcoinadresse"
+
+#: public/views/walletHome.html
+msgid "My Decred address"
+msgstr "Eigene Decredadresse"
 
 #: public/views/paymentUri.html
 msgid "Network"
@@ -1305,6 +1339,11 @@ msgstr "The Ledger Chrome application is not installed"
 msgid "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
 msgstr "The authors of the software, employees and affiliates of Bitpay, copyright holders, and BitPay, Inc. cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Bitcoin network."
 
+#: public/views/disclaimer.html
+msgid "The authors of the software, employees and affiliates of
+Company 0, LLC, and copyright holders cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Decred network."
+msgstr "The authors of the software, employees and affiliates of Company 0, LLC, and copyright holders cannot retrieve your private keys or passwords if you lose or forget them and cannot guarantee transaction confirmation as they do not have control over the Decred network."
+
 #: src/js/controllers/walletHome.js
 msgid "The payment was created but could not be completed. Please try again from home screen"
 msgstr "Die Zahlung wurde erzeugt, kann aber nicht abgeschlossen werden. Bitte erneut über die Startseite versuchen"
@@ -1333,6 +1372,10 @@ msgstr "The seed could require a passphrase to be imported"
 #: public/views/disclaimer.html
 msgid "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
 msgstr "The software does not constitute an account where BitPay or other third parties serve as financial intermediaries or custodians of your bitcoin."
+
+#: public/views/disclaimer.html
+msgid "The software does not constitute an account where Company 0, LLC or other third parties serve as financial intermediaries or custodians of your decred."
+msgstr "The software does not constitute an account where Company 0, LLC or other third parties serve as financial intermediaries or custodians of your decred."
 
 #: public/views/disclaimer.html
 msgid "The software you are about to use functions as a free, open source, and multi-signature digital wallet."
@@ -1419,6 +1462,10 @@ msgstr "Übersetzer"
 msgid "Type the Seed Word (usually 12 words)"
 msgstr "Geben Sie die Seed-Wörter ein (in der Regel 12)"
 
+#: public/views/import.html
+msgid "Type the Seed Word (usually 33 words)"
+msgstr "Geben Sie die Seed-Wörter ein (in der Regel 33)"
+
 #: src/js/controllers/walletHome.js
 msgid "Unable to send transaction proposal"
 msgstr "Transaktionsvorschlag kann nicht gesendet werden"
@@ -1494,6 +1541,10 @@ msgstr "WARNUNG: Wallet nicht registriert"
 #: public/views/splash.html
 msgid "WELCOME TO COPAY"
 msgstr "Willkommen bei COPAY"
+
+#: public/views/splash.html
+msgid "WELCOME TO DECRED WEB WALLET"
+msgstr "Willkommen bei DECRED WEB WALLET"
 
 #: public/views/copayers.html
 msgid "Waiting for copayers"

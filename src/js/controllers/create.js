@@ -56,7 +56,7 @@ angular.module('copayApp.controllers').controller('createController',
         n: $scope.totalCopayers,
         name: form.walletName.$modelValue,
         myName: $scope.totalCopayers > 1 ? form.myName.$modelValue : null,
-        networkName: form.isTestnet.$modelValue ? 'testnet' : 'livenet',
+        networkName: form.isTestnet.$modelValue ? 'dcrdtestnet' : 'dcrdlivenet',
       };
       var setSeed = form.setSeed.$modelValue;
       if (setSeed) {

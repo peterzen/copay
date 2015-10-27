@@ -22,7 +22,7 @@ angular.module('copayApp.controllers').controller('sellGlideraController',
     }
 
     this.otherWallets = function(testnet) {
-      var network = testnet ? 'testnet' : 'livenet';
+      var network = dcrdtestnet ? 'dcrdtestnet' : 'dcrdlivenet';
       return lodash.filter(profileService.getWallets(network), function(w) {
         return w.network == network && w.m == 1;
       });

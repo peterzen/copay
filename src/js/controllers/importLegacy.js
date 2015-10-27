@@ -6,7 +6,7 @@ angular.module('copayApp.controllers').controller('importLegacyController',
     var self = this;
     self.messages = [];
     self.fromCloud = true;
-    self.server = "https://insight.bitpay.com:443/api/email";
+    self.server = "https://127.0.0.1:3004/api/email";
 
 
     $rootScope.$on('Local/ImportStatusUpdate', function(event, status) {

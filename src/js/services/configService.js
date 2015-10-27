@@ -12,7 +12,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.bitpay.com/bws/api',
+        url: 'https://bws.decred.org/bws/api',
     },
 
     // wallet default config
@@ -23,23 +23,26 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'bits',
+        unitName: 'dbits',
         unitToSatoshi: 100,
         unitDecimals: 2,
-        unitCode: 'bit',
-        alternativeName: 'US Dollar',
-        alternativeIsoCode: 'USD',
+        unitCode: 'dbit',
+        //alternativeName: 'US Dollar',
+        //alternativeIsoCode: 'USD',
       }
     },
 
     // External services
     glidera: {
-      enabled: true,
-      testnet: false
+      enabled: false,
+      dcrdtestnet: true
     },
 
+    // Not sure what we should do with this long-term, but for now,
+    // just point to something local.  No way to get rates for dcr at
+    // the moment anyway.
     rates: {
-      url: 'https://insight.bitpay.com:443/api/rates',
+      url: '',
     },
   };
 
