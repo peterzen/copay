@@ -201,7 +201,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
       $scope.currentSpendUnconfirmed = currentSpendUnconfirmed;
 
       $scope.getShortNetworkName = function() {
-        return fc.credentials.networkName.substring(0, 4);
+        return fc.credentials.networkName.substring(4, fc.credentials.networkName.length);
       };
       lodash.each(['TxProposalRejectedBy', 'TxProposalAcceptedBy', 'transactionProposalRemoved', 'TxProposalRemoved', 'NewOutgoingTx', 'UpdateTx'], function(eventName) {
         $rootScope.$on(eventName, function() {
@@ -1100,7 +1100,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
 
       $scope.getShortNetworkName = function() {
         var n = fc.credentials.network;
-        return n.substring(0, 4);
+        return n.substring(4, n.length);
       };
 
       $scope.copyAddress = function(addr) {

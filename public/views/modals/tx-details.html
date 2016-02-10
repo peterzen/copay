@@ -115,7 +115,7 @@
   <div ng-show="btx.txid" class="tx-details-blockchain">
     <div class="text-center m20t">
       <button class="button outline round dark-gray tiny" ng-click="$root.openExternalLink('https://' +
-	(getShortNetworkName() == 'test' ? 'testnet.decred.org' : 'testnet.decred.org') + '/tx/' + btx.txid)">
+	(getShortNetworkName() == 'livenet' ? 'mainnet.decred.org' : getShortNetworkName()) + '/tx/' + btx.txid)">
         <span class="text-gray" translate>See it on the blockchain</span>
       </button>
     </div>
