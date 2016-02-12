@@ -506,7 +506,7 @@ angular.module('copayApp.controllers').controller('walletHomeController', functi
           $scope.customizedAmountUnit = amount + ' ' + $scope.unitName;
 	  // Until we support alternative currenties (i.e., USD), this line is an issue.
           //$scope.customizedAlternativeUnit = $filter('noFractionNumber')(form.alternative.$modelValue, 2) + ' ' + $scope.alternativeIsoCode;
-          if ($scope.unitName == 'dbits') {
+          if ($scope.unitName == 'atoms') {
             amount = (amountSat * satToBtc).toFixed(8);
           }
           $scope.customizedAmountBtc = amount;

@@ -14,11 +14,11 @@ angular.module('copayApp.controllers').controller('preferencesUnitController',
       //     code: 'sat',
       //   }, 
       {
-        name: 'dbits (1,000,000 bits = 1DCR)',
-        shortName: 'dbits',
-        value: 100,
-        decimals: 2,
-        code: 'dbit',
+        name: 'atoms (100,000,000 atoms = 1DCR)',
+        shortName: 'atoms',
+        value: 1,
+        decimals: 0,
+        code: 'atom',
       }
       // TODO : add mBTC to bitcore-wallet-client formatAmount()
       // ,{
