@@ -23,10 +23,10 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       reconnectDelay: 5000,
       idleDurationMin: 4,
       settings: {
-        unitName: 'dbits',
-        unitToSatoshi: 100,
-        unitDecimals: 2,
-        unitCode: 'dbit',
+        unitName: 'DCR',
+        unitToSatoshi: 100000000,
+        unitDecimals: 8,
+        unitCode: 'dcr',
         //alternativeName: 'US Dollar',
         //alternativeIsoCode: 'USD',
       }
