@@ -15,6 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+	  'bower_components/fastclick/lib/fastclick.js',
       'bower_components/qrcode-generator/js/qrcode.js',
       'bower_components/qrcode-decoder-js/lib/qrcode-decoder.js',
       'bower_components/moment/min/moment-with-locales.js',
@@ -28,6 +29,7 @@ module.exports = function(config) {
       'bower_components/angular-qrcode/qrcode.js',
       'bower_components/angular-gettext/dist/angular-gettext.js',
       'bower_components/angular-touch/angular-touch.js',
+	  'bower_components/angular-bitcore-wallet-client/angular-bitcore-wallet-client.js',
       'bower_components/angular-ui-switch/angular-ui-switch.js',
       'node_modules/angular-mocks/angular-mocks.js',
       'src/js/**/*.js',
