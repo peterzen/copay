@@ -146,7 +146,7 @@ msgid "All Addresses"
 msgstr ""
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your Decred wallet balance may not be available for immediate spending."
 msgstr ""
 
 #: www/views/tab-receive.html:33
@@ -296,36 +296,36 @@ msgid "BitPay Visa&reg; Cards"
 msgstr ""
 
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
+msgid "Decred Address"
 msgstr ""
 
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
+msgid "Decred Network Fee Policy"
 msgstr ""
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
+msgid "Decred URI is NOT valid!"
 msgstr ""
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
+msgid "Decred Unit"
 msgstr ""
 
 #: www/views/onboarding/tour.html:26
-msgid "Bitcoin is a currency."
+msgid "Decred is a currency."
 msgstr ""
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
+msgid "Decred is different &ndash; it cannot be safely held with a bank or web service."
 msgstr ""
 
 #: www/views/onboarding/tour.html:13
-msgid "Bitcoin is secure,<br>digital money."
+msgid "Decred is secure,<br>digital money."
 msgstr ""
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Decred transactions include a fee collected by miners on the network."
 msgstr ""
 
 #: www/views/modals/txp-details.html:36
@@ -346,15 +346,15 @@ msgid "Browser unsupported"
 msgstr ""
 
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
+msgid "Buy &amp; Sell Decred"
 msgstr ""
 
 #: www/views/tab-send.html:31
-msgid "Buy Bitcoin"
+msgid "Buy Decred"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Decred..."
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:12
@@ -2079,7 +2079,7 @@ msgid "Self-signed Certificate"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Decred..."
 msgstr ""
 
 #: www/views/feedback/send.html:13
