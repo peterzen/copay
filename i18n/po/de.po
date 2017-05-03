@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: peter_zen <peter@froggle.org>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2017-05-03 19:20-0400\n"
+"PO-Revision-Date: 2017-05-03 19:50-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -78,8 +78,8 @@ msgid "Add Account"
 msgstr "Konto hinzufügen"
 
 #: src/js/services/bitpayAccountService.js:68
-msgid "Add BitPay Account?"
-msgstr "BitPay-Konto hinzufügen?"
+msgid "Add Company0 Account?"
+msgstr ""
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -155,12 +155,12 @@ msgid "All Addresses"
 msgstr "Alle Adressen"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "Möglicherweise kann nicht ihr gesamtes Bitcoin Guthaben sofort ausgegeben werden."
+msgid "All of your Decred wallet balance may not be available for immediate spending."
+msgstr ""
 
 #: www/views/tab-receive.html:33
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "Alle unterzeichnenden Geräte müssen zu dieser Multi-Signatur Wallet hinzugefügt werden, bevor Bitcoin-Adressen erstellt werden können."
+msgid "All signing devices must be added to this multisig wallet before Decred addresses can be created."
+msgstr ""
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -199,16 +199,16 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "Ein Aktualisierung für diese App ist verfügbar. Zu Ihrer Sicherheit bitte auf die neueste Version aktualisieren."
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
-msgstr "Jeder mit Ihrer Wiederherstellungsphrase hat Zugriff auf ihre Bitcoins und kann diese ausgeben."
+msgid "Anyone with your backup phrase can access or spend your Decred."
+msgstr ""
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
 msgstr "Werden Sie beobachtet?"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
-msgstr "Werden Sie beobachtet? Jeder der Ihre Wiederherstellungsphrase kennt, kann auf Ihre Bitcoin zugreifen und diese ausgeben."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your Decred."
+msgstr ""
 
 #: src/js/controllers/copayers.js:42
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -232,8 +232,8 @@ msgstr "Sind Sie sicher dass Sie es überspringen möchten?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "Sind Sie sicher, dass Sie Ihre BitPay-Karte ({{lastFourDigits}}) von diesem Gerät entfernen möchten?"
+msgid "Are you sure you would like to remove your Company0 Card ({{lastFourDigits}}) from this device?"
+msgstr ""
 
 #: www/views/includes/walletInfo.html:5
 msgid "Auditable"
@@ -301,41 +301,41 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "Achten Sie darauf Ihre Wiederherstellungsphrase an einem sicheren Ort abzulegen. Ihr Geld kann nicht ohne dieser Phrase wiederhergestellt werden falls die App deinstalliert wird."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "BitPay Visa&reg; Cards"
-msgstr "BitPay Visa&reg; Karten"
+msgid "Company0 Visa&reg; Cards"
+msgstr ""
 
 #: www/views/addressbook.add.html:38
-msgid "Bitcoin Address"
-msgstr "Bitcoin-Adresse"
+msgid "Decred Address"
+msgstr ""
 
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:85
-msgid "Bitcoin Network Fee Policy"
-msgstr "Bitcoin-Netzwerk Gebührenübersicht"
+msgid "Decred Network Fee Policy"
+msgstr ""
 
 #: www/views/paymentUri.html:10
-msgid "Bitcoin URI is NOT valid!"
-msgstr "Bitcoin URI ist NICHT gültig!"
+msgid "Decred URI is NOT valid!"
+msgstr ""
 
 #: www/views/tab-settings.html:63
-msgid "Bitcoin Unit"
-msgstr "Bitcoin-Einheit"
+msgid "Decred Unit"
+msgstr ""
 
 #: www/views/onboarding/tour.html:26
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin ist eine Währung."
+msgid "Decred is a currency."
+msgstr ""
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoins sind anders &ndash; sie können nicht sicher in einer Bank oder einem Onlinedienst aufbewahrt werden."
+msgid "Decred is different &ndash; it cannot be safely held with a bank or web service."
+msgstr ""
 
 #: www/views/onboarding/tour.html:13
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "Bitcoin ist sicheres,<br>digitales Geld."
+msgid "Decred is secure,<br>digital money."
+msgstr ""
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Bitcoin Transaktionen enthalten eine Gebühr für die \"Miners\" im Netzwerk."
+msgid "Decred transactions include a fee collected by miners on the network."
+msgstr ""
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -355,16 +355,16 @@ msgid "Browser unsupported"
 msgstr "Browser wird nicht unterstützt"
 
 #: www/views/includes/buyAndSellCard.html:4
-msgid "Buy &amp; Sell Bitcoin"
-msgstr "Kaufe &amp; Verkaufe Bitcoins"
+msgid "Buy &amp; Sell Decred"
+msgstr ""
 
 #: www/views/tab-send.html:31
-msgid "Buy Bitcoin"
-msgstr "Kaufe Bitcoins"
+msgid "Buy Decred"
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
-msgstr "Kaufe Bitcoins..."
+msgid "Buying Decred..."
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -476,8 +476,8 @@ msgid "Confirming"
 msgstr "Bestätigen"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my BitPay Card"
-msgstr "Verbinde meine BitPay-Karte"
+msgid "Connect my Company0 Card"
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -522,7 +522,7 @@ msgstr "Copayer beigetreten"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr ""
+msgstr "Mitbezahlende {{$index}}"
 
 #: src/js/controllers/copayers.js:63
 #: src/js/controllers/export.js:193
@@ -657,8 +657,8 @@ msgstr "Erstelle eine gemeinsame Wallet"
 #: www/views/onboarding/tour.html:46
 #: www/views/tab-home.html:76
 #: www/views/tab-send.html:32
-msgid "Create bitcoin wallet"
-msgstr "Erstelle Bitcoin-Wallet"
+msgid "Create Decred wallet"
+msgstr ""
 
 #: www/views/tab-create-personal.html:107
 msgid "Create new wallet"
@@ -758,8 +758,8 @@ msgid "Download"
 msgstr "Herunterladen"
 
 #: www/views/addresses.html:23
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Jede Bitcoin-Wallet kann Milliarden von Adressen aus Ihrem 12-Wort Backup erzeugen. Jedesmal wenn Sie eine Zahlung erhalten wird neue Adresse automatisch generiert und dargestellten."
+msgid "Each Decred wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr ""
 
 #: src/js/services/feeService.js:11
 msgid "Economy"
@@ -808,8 +808,8 @@ msgid "Enter Spending Password"
 msgstr "Berechtigungscode eingeben"
 
 #: src/js/services/bitpayAccountService.js:104
-msgid "Enter Two Factor for your BitPay account"
-msgstr "Eingabe des Zwei-Faktor-Authentifizierungs-Codes für das BitPay Konto"
+msgid "Enter Two Factor for your Company0 account"
+msgstr ""
 
 #: src/js/services/walletService.js:934
 msgid "Enter new spending password"
@@ -902,8 +902,8 @@ msgid "Error creating wallet"
 msgstr "Fehler beim Erstellen des Wallets"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing Bitpay Account"
-msgstr "Fehler bei der Kopplung mit dem Bitpay-Konto"
+msgid "Error pairing Company0 Account"
+msgstr ""
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -983,8 +983,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "Feedback konnte nicht abgeschickt werden. Bitte versuchen Sie es später erneut."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching BitPay Account..."
-msgstr "BitPay Konto abrufen..."
+msgid "Fetching Company0 Account..."
+msgstr ""
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching Payment Information"
@@ -1018,8 +1018,8 @@ msgid "From"
 msgstr "Von"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From BitPay account"
-msgstr "Von BitPay Konto"
+msgid "From Company0 account"
+msgstr ""
 
 #: www/views/tab-export-qrCode.html:5
 msgid "From the destination device, go to Add wallet &gt; Import wallet and scan this QR code"
@@ -1054,8 +1054,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Erhalten Sie Bargeld überall von einem Visa<sup>&reg;</sup> kompatiblen Bankomaten. Es fallen eventuell Bankomatgebühren an."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from BitPay"
-msgstr "Erhalten Sie Neuigkeiten und Aktualisierungen von BitPay"
+msgid "Get news and updates from Company0"
+msgstr ""
 
 #: www/views/onboarding/welcome.html:8
 msgid "Get started"
@@ -1179,8 +1179,8 @@ msgid "I understand"
 msgstr "Ich verstehe"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
-msgstr "Ich verstehe dass wenn diese App auf ein anderes Gerät verschoben oder gelöscht wird meine Bitcoins nur mit der Wiederherstellungsphrase wiederhergestellt werden können."
+msgid "I understand that if this app is moved to another device or deleted, my Decred can only be recovered with the backup phrase."
+msgstr ""
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1195,16 +1195,16 @@ msgid "If enabled, all sensitive information (private key and recovery phrase) a
 msgstr "Wenn aktiviert, werden alle vertraulichen Informationen (private Schlüssel und Wiederherstellungs Satz) und die zugeordneten Aktionen (Ausgaben und Exporte) des Wallets geschützt."
 
 #: www/views/advancedSettings.html:22
-msgid "If enabled, the Recent Transactions card - a list of transactions occuring across all wallets - will appear in the Home tab."
-msgstr "Wenn aktiviert wird die \"Kürzlich Ausgeführte Transaktionen\" Karte - eine Liste von Transaktionen aller Wallets - in der Registerkarte \"Start\" erscheinen."
+msgid "If enabled, the Recent Transactions card - a list of transactions occurring across all wallets - will appear in the Home tab."
+msgstr ""
 
 #: www/views/advancedSettings.html:13
 msgid "If enabled, wallets will also try to spend unconfirmed funds. This option may cause transaction delays."
 msgstr "Wenn aktiviert werden Wallets auch versuchen unbestätigtes Vermögen auszugeben. Diese Option kann zu Transaktionsverzögerungen führen."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "Wenn dieses Gerät ersetzt oder diese App gelöscht wird, so können weder Sie noch BitPay Ihr Geld ohne eine Sicherung wiederherstellen."
+msgid "If this device is replaced or this app is deleted, neither you nor Company0 can recover your funds without a backup."
+msgstr ""
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1217,7 +1217,7 @@ msgstr "Wenn Sie einen Screenshot erstellen, kann die Sicherung von anderen Apps
 #: www/views/tab-import-hardware.html:42
 #: www/views/tab-import-phrase.html:61
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #: www/views/import.html:3
 msgid "Import Wallet"
@@ -1473,7 +1473,7 @@ msgstr "Hinweis: Um eine Brieftasche aus einer 3rd-Party-Software zu importieren
 #: www/views/preferences.html:15
 #: www/views/preferencesAlias.html:17
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: www/views/paymentUri.html:18
 msgid "Network"
@@ -1508,8 +1508,8 @@ msgid "No Wallet"
 msgstr "Keine Wallet"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
-msgstr "Keine Sicherung, keine Bitcoins."
+msgid "No backup, no Decred."
+msgstr ""
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1553,7 +1553,7 @@ msgstr "Keine Wallet verfügbar um Guthaben zu erhalten"
 
 #: src/js/services/feeService.js:10
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
@@ -1564,8 +1564,8 @@ msgid "Not enough funds for fee"
 msgstr "Das Guthaben reicht nicht für die Gebühr"
 
 #: www/views/onboarding/tour.html:45
-msgid "Not even BitPay can access it."
-msgstr "Nicht einmal BitPay kann darauf zugreifen."
+msgid "Not even Company0 can access it."
+msgstr ""
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1581,8 +1581,8 @@ msgid "Note"
 msgstr "Notiz"
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "Hinweis: nur 1-1 (Einzelunterschrift) Wallets können verwendet werden um Bitcoins zu verkaufen"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell Decred"
+msgstr ""
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:46
@@ -1600,7 +1600,7 @@ msgstr "Jetzt ist die perfekte Zeit um Ihre Umgebung zu überprüfen. In der Nä
 #: src/js/services/popupService.js:15
 #: src/js/services/popupService.js:58
 msgid "OK"
-msgstr ""
+msgstr "Okay"
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
@@ -1662,8 +1662,8 @@ msgid "Open wallet"
 msgstr "Öffne Wallet"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the BitPay Card"
-msgstr "BitPay-Karte bestellen"
+msgid "Order the Company0 Card"
+msgstr ""
 
 #: www/views/join.html:100
 #: www/views/join.html:93
@@ -1689,8 +1689,8 @@ msgid "Paste the backup plain text code"
 msgstr "Den Klartext der Sicherung einfügen"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Zahle 0 % Gebühren um Bitcoins in Dollar zu wechseln."
+msgid "Pay 0% fees to turn Decred into dollars."
+msgstr ""
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -1967,16 +1967,16 @@ msgid "Release information"
 msgstr "Release-Informationen"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove BitPay Account?"
-msgstr "BitPay-Konto entfernen?"
+msgid "Remove Company0 Account?"
+msgstr ""
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove BitPay Card?"
-msgstr "BitPay Karte entfernen?"
+msgid "Remove Company0 Card?"
+msgstr ""
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
-msgstr "Das Entfernen des BitPay-Kontos löscht alle zugehörigen Daten von diesem Gerät. Soll wirklich das BityPay-Konto ({{email}}) von diesem Gerät entfernt werden?"
+msgid "Removing your Company0 account will remove all associated Company0 account data from this device. Are you sure you would like to remove your Company0 Account ({{email}}) from this device?"
+msgstr ""
 
 #: www/views/tab-export-file.html:17
 msgid "Repeat password"
@@ -2060,8 +2060,8 @@ msgid "Search Transactions"
 msgstr "Transaktionen durchsuchen"
 
 #: www/views/tab-send.html:11
-msgid "Search or enter bitcoin address"
-msgstr "Bitcoin-Adresse suchen oder eingeben"
+msgid "Search or enter Decred address"
+msgstr ""
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2088,8 +2088,8 @@ msgid "Self-signed Certificate"
 msgstr "Selbstsigniertes Zertifikat"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
-msgstr "Verkauf von Bitcoins..."
+msgid "Selling Decred..."
+msgstr ""
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2112,8 +2112,8 @@ msgid "Send addresses by email"
 msgstr "Adressen per e-Mail versenden"
 
 #: www/views/includes/confirm-tx.html:3
-msgid "Send bitcoin"
-msgstr "Bitcoins senden"
+msgid "Send Decred"
+msgstr ""
 
 #: www/views/preferencesLogs.html:13
 #: www/views/tab-export-file.html:82
@@ -2177,7 +2177,7 @@ msgstr "Antwort des Servers konnte nicht verifiziert werden"
 
 #: www/views/includes/homeIntegrations.html:3
 msgid "Services"
-msgstr ""
+msgstr "Dienstleistungen"
 
 #: www/views/preferencesLogs.html:3
 msgid "Session Log"
@@ -2242,8 +2242,8 @@ msgid "Show advanced options"
 msgstr "Erweiterte Optionen anzeigen"
 
 #: www/views/tab-send.html:33
-msgid "Show bitcoin address"
-msgstr "Bitcoin-Adresse anzeigen"
+msgid "Show Decred address"
+msgstr ""
 
 #: www/views/tab-send.html:55
 msgid "Show more"
@@ -2293,8 +2293,8 @@ msgid "Spending Password needed"
 msgstr "Berechtigungscode erforderlich"
 
 #: www/views/tab-send.html:24
-msgid "Start sending bitcoin"
-msgstr "Starte mit dem Senden der Bitcoins"
+msgid "Start sending Decred"
+msgstr ""
 
 #: src/js/routes.js:118
 msgid "Starting..."
@@ -2325,8 +2325,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "Übernehmen Sie die Kontrolle über Ihr Geld, <br>Legen Sie los mit Bitcoins."
+msgid "Take control of your money,<br>get started with Decred."
+msgstr ""
 
 #: www/views/walletDetails.html:140
 #: www/views/walletDetails.html:60
@@ -2352,7 +2352,7 @@ msgstr "Nutzungsbedingungen"
 #: www/views/tab-create-personal.html:94
 #: www/views/tab-import-phrase.html:55
 msgid "Testnet"
-msgstr ""
+msgstr "Testnet"
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -2374,16 +2374,16 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "Die Chrome-Anwendung für Ledger ist nicht installiert"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "Den Betrag an Bitcoins sofort aus dieser Wallet zahlen."
+msgid "The amount of Decred immediately spendable from this wallet."
+msgstr ""
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "Der Betrag an Bitcoins gespeichert in dieser Wallet ist zugewiesen als Einsatz für die ausstehende Transaktion. Dem Betrag wurde zugewiesen unverbrauchte Transaktions-Ausgänge zu verwenden, welche mit dieser Brieftasche verbunden sind, und entspricht möglicherweise mehr als die tatsächlichen Beträge welche im Zusammenhang mit Ihren ausstehenden Transaktions-Betrag stehen."
+msgid "The amount of Decred stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr ""
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "Die Menge an Bitcoins sind in dieser Geldbörse mit weniger als 1 Blockchain Bestätigung gespeichert."
+msgid "The amount of Decred stored in this wallet with less than 1 blockchain confirmation."
+msgstr ""
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2402,8 +2402,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Die maximale Anzahl aufeinander folgender ungenutzter Adressen (20) wurde erreicht. Wenn eine Ihrer ungenutzten Adressen eine Zahlung erhält wird eine neue Adresse erzeugt und in der Registerkarte \"Empfangen\" gezeigt."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "Die offizielle englischen Nutzungsbedingungen sind auf der BitPay Website verfügbar."
+msgid "The official English Terms of Service are available on the Company0 website."
+msgstr ""
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2437,8 +2437,8 @@ msgid "The spend proposal is not pending"
 msgstr "Der Zahlungsvorschlag ist nicht ausstehend"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "Der Gesamtbetrag an Bitcoins vorrätig in dieser Wallet."
+msgid "The total amount of Decred stored in this wallet."
+msgstr ""
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2472,12 +2472,12 @@ msgid "This app is fantastic!"
 msgstr "Diese App ist fantastisch!"
 
 #: www/views/onboarding/tour.html:42
-msgid "This app stores your bitcoin with cutting-edge security."
-msgstr "Diese App speichert Ihre Bitcoins mit modernster Sicherheit."
+msgid "This app stores your Decred with cutting-edge security."
+msgstr ""
 
 #: src/js/controllers/confirm.js:471
-msgid "This bitcoin payment request has expired."
-msgstr "Diese Bitcoin Zahlungsaufforderung ist abgelaufen."
+msgid "This Decred payment request has expired."
+msgstr ""
 
 #: www/views/join.html:108
 #: www/views/tab-create-personal.html:79
@@ -2513,12 +2513,12 @@ msgid "To"
 msgstr "An"
 
 #: www/views/tab-send.html:28
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "Um loszulegen kaufe Bitcoins oder teilen Sie ihre Adresse. Sie können Bitcoins von jeder beliebigen Wallet oder von einem Dienstleister/Broker empfangen."
+msgid "To get started, buy Decred or share your address. You can receive Decred from any wallet or service."
+msgstr ""
 
 #: www/views/tab-send.html:29
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
-msgstr "Um loszulegen müssen Sie eine Bitcoin-Wallet erstellen und einige Bitcoins erhalten."
+msgid "To get started, you'll need to create a Decred wallet and get some Decred."
+msgstr ""
 
 #: www/views/modals/wallet-balance.html:23
 msgid "Total"
@@ -2572,8 +2572,8 @@ msgid "Try again in {{expires}}"
 msgstr "Versuchen Sie es erneut in {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Wechseln Sie Bitcoins in Dollar, wechseln Sie überall wo Visa<sup>&reg;</sup> akzeptiert wird."
+msgid "Turn Decred into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr ""
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -2581,7 +2581,7 @@ msgstr "Wiederherstellungsphrase eingeben (in der Regel 12 Wörter)"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
-msgstr ""
+msgstr "Uh oh..."
 
 #: www/views/modals/search.html:36
 #: www/views/tx-details.html:94
@@ -2635,7 +2635,7 @@ msgstr "Überprüfe Wiederherstellungsphrase..."
 #: www/views/preferencesAbout.html:14
 #: www/views/preferencesExternal.html:25
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: www/views/tab-export-file.html:69
 msgid "View"
@@ -2827,7 +2827,7 @@ msgstr "Wallet-Dienst nicht gefunden"
 
 #: www/views/tab-home.html:68
 msgid "Wallets"
-msgstr ""
+msgstr "Geldbörsen"
 
 #: www/views/tab-settings.html:102
 msgid "Wallets & Integrations"
@@ -2919,16 +2919,16 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "Sie können Beiträge leisten indem Sie sich auf unserer Crowdin Community Übersetzungs-Website registrieren. Wir freuen uns darauf von Ihnen zu hören!"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "Sie können Bitcoin-Adressen, Zahlungsaufforderungen, Papier-Wallets und mehr scannen."
+msgid "You can scan Decred addresses, payment requests, paper wallets, and more."
+msgstr ""
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "Sie können auf GitHub die neuesten Entwicklungen ansehen und zu dieser Open-Source App beitragen."
 
 #: www/views/onboarding/tour.html:14
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "Sie können Bitcoins auf Millionen von Webseiten und Shops weltweit ausgeben."
+msgid "You can spend Decred at millions of websites and stores worldwide."
+msgstr ""
 
 #: www/views/backup.html:12
 msgid "You can still export it from Advanced &gt; Export."
@@ -2939,20 +2939,20 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "Sie können auch mit andere Währungen wie US-Dollar, Euro oder Pfund handeln."
 
 #: www/views/onboarding/tour.html:41
-msgid "You control your bitcoin."
-msgstr "Sie kontrollieren Ihre Bitcoins."
+msgid "You control your Decred."
+msgstr ""
 
 #: www/views/preferencesNotifications.html:28
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "Sie erhalten E-Mail Benachrichtigungen über gesendete und empfangen Zahlungen aus Ihren Wallets."
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "Ihre Bitcoin-Wallet wurde gesichert!"
+msgid "Your Decred wallet is backed up!"
+msgstr ""
 
 #: www/views/tab-home.html:35
-msgid "Your bitcoin wallet is ready!"
-msgstr "Ihre Bitcoin-Wallet ist fertig!"
+msgid "Your Decred wallet is ready!"
+msgstr ""
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -2988,8 +2988,8 @@ msgid "[Balance Hidden]"
 msgstr "[Guthaben versteckt]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your BitPay Visa card(s)"
-msgstr "Ihre BitPay Visa Karte(n) hinzufügen"
+msgid "add your Company0 Visa card(s)"
+msgstr ""
 
 #: www/views/tab-receive.html:75
 msgid "address not available"
@@ -3034,8 +3034,8 @@ msgid "to send"
 msgstr "zu senden"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf https://bws.bitpay.com (BitPays öffentlicher BWS Instanz)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.decred.org (Company0's public BWS instance)."
+msgstr ""
 
 #: src/js/controllers/lockSetup.js:98
 msgid "{{appName}} startup is locked by PIN. Are you sure you want to disable it?"
@@ -3046,8 +3046,8 @@ msgid "{{feeRateStr}} of the transaction"
 msgstr "{{feeRateStr}} der Transaktion"
 
 #: src/js/controllers/confirm.js:210
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} wird für Bitcoin-Netzwerkgebühren abgezogen werden."
+msgid "{{fee}} will be deducted for Decred networking fees."
+msgstr ""
 
 #: www/views/walletDetails.html:210
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
