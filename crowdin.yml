@@ -1,0 +1,7 @@
+files:
+  - source: /i18n/po/template.pot
+    translation: /i18n/po/%two_letters_code%
+    languages_mapping:
+      two_letters_code:
+        de: de.po
+        pt-BR: pt.po
