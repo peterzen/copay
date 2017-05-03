@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-decred2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-decred2\n"
 "X-Crowdin-Language: de\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /copay-decred/i18n/po/template.pot\n"
+"Last-Translator: peter_zen <peter@froggle.org>\n"
 "Language-Team: German\n"
-"Language: de\n"
-"PO-Revision-Date: 2017-04-21 12:51-0400\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2017-05-03 19:20-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -522,7 +522,7 @@ msgstr "Copayer beigetreten"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr "Copayer {{$index}}"
+msgstr ""
 
 #: src/js/controllers/copayers.js:63
 #: src/js/controllers/export.js:193
@@ -1217,7 +1217,7 @@ msgstr "Wenn Sie einen Screenshot erstellen, kann die Sicherung von anderen Apps
 #: www/views/tab-import-hardware.html:42
 #: www/views/tab-import-phrase.html:61
 msgid "Import"
-msgstr "Import"
+msgstr ""
 
 #: www/views/import.html:3
 msgid "Import Wallet"
@@ -1473,7 +1473,7 @@ msgstr "Hinweis: Um eine Brieftasche aus einer 3rd-Party-Software zu importieren
 #: www/views/preferences.html:15
 #: www/views/preferencesAlias.html:17
 msgid "Name"
-msgstr "Name"
+msgstr ""
 
 #: www/views/paymentUri.html:18
 msgid "Network"
@@ -1553,7 +1553,7 @@ msgstr "Keine Wallet verfügbar um Guthaben zu erhalten"
 
 #: src/js/services/feeService.js:10
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
@@ -1600,7 +1600,7 @@ msgstr "Jetzt ist die perfekte Zeit um Ihre Umgebung zu überprüfen. In der Nä
 #: src/js/services/popupService.js:15
 #: src/js/services/popupService.js:58
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
@@ -2177,7 +2177,7 @@ msgstr "Antwort des Servers konnte nicht verifiziert werden"
 
 #: www/views/includes/homeIntegrations.html:3
 msgid "Services"
-msgstr "Services"
+msgstr ""
 
 #: www/views/preferencesLogs.html:3
 msgid "Session Log"
@@ -2352,7 +2352,7 @@ msgstr "Nutzungsbedingungen"
 #: www/views/tab-create-personal.html:94
 #: www/views/tab-import-phrase.html:55
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -2581,7 +2581,7 @@ msgstr "Wiederherstellungsphrase eingeben (in der Regel 12 Wörter)"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
-msgstr "Uh oh..."
+msgstr ""
 
 #: www/views/modals/search.html:36
 #: www/views/tx-details.html:94
@@ -2635,7 +2635,7 @@ msgstr "Überprüfe Wiederherstellungsphrase..."
 #: www/views/preferencesAbout.html:14
 #: www/views/preferencesExternal.html:25
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: www/views/tab-export-file.html:69
 msgid "View"
@@ -2827,7 +2827,7 @@ msgstr "Wallet-Dienst nicht gefunden"
 
 #: www/views/tab-home.html:68
 msgid "Wallets"
-msgstr "Wallets"
+msgstr ""
 
 #: www/views/tab-settings.html:102
 msgid "Wallets & Integrations"
@@ -3057,4 +3057,3 @@ msgstr "{{updatingTxHistoryProgress}} Transaktionen werden heruntergeladen"
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}-von-{{wallet.n}}"
-
