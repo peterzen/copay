@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: copay-decred\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: copay-decred\n"
 "X-Crowdin-Language: pt-BR\n"
-"X-Crowdin-File: template.pot\n"
-"Last-Translator: cmgustavo83\n"
+"X-Crowdin-File: /copay-decred/i18n/po/template.pot\n"
+"Last-Translator: peter_zen <peter@froggle.org>\n"
 "Language-Team: Portuguese, Brazilian\n"
-"Language: pt\n"
-"PO-Revision-Date: 2017-04-24 08:26-0400\n"
+"Language: pt_BR\n"
+"PO-Revision-Date: 2017-05-03 18:17-0400\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
@@ -260,7 +260,7 @@ msgstr "Pacote BIP32 para endereço de derivação"
 
 #: www/views/preferences.html:39
 msgid "Backup"
-msgstr "Backup"
+msgstr ""
 
 #: www/views/includes/backupNeededPopup.html:7
 msgid "Backup Needed"
@@ -522,7 +522,7 @@ msgstr "Copayer juntou-se"
 
 #: www/views/preferencesInformation.html:88
 msgid "Copayer {{$index}}"
-msgstr "Copayer {{$index}}"
+msgstr ""
 
 #: src/js/controllers/copayers.js:63
 #: src/js/controllers/export.js:193
@@ -755,7 +755,7 @@ msgstr "Não vê o seu idioma no Crowdin? Contacte o Dono no Crowdin! Nós adora
 #: www/views/tab-export-file.html:59
 #: www/views/tab-home.html:21
 msgid "Download"
-msgstr "Download"
+msgstr ""
 
 #: www/views/addresses.html:23
 msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
@@ -768,7 +768,7 @@ msgstr "Economia"
 #: www/views/addressbook.add.html:29
 #: www/views/addressbook.view.html:22
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: www/views/preferencesNotifications.html:36
 msgid "Email Address"
@@ -1323,7 +1323,7 @@ msgstr "É importante que você escreva sua frase backup corretamente. Se algo a
 
 #: www/views/join.html:18
 msgid "John"
-msgstr "John"
+msgstr ""
 
 #: www/views/join.html:126
 msgid "Join"
@@ -1553,7 +1553,7 @@ msgstr "Nenhuma Carteira disponível para receber fundos"
 
 #: src/js/services/feeService.js:10
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 #: src/js/services/bwcError.js:80
 msgid "Not authorized"
@@ -1600,7 +1600,7 @@ msgstr "Agora é a hora perfeita para olhar em volta. Próximo de janelas? Câme
 #: src/js/services/popupService.js:15
 #: src/js/services/popupService.js:58
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: www/views/modals/tx-status.html:12
 #: www/views/modals/tx-status.html:24
@@ -2352,7 +2352,7 @@ msgstr "Termos de uso"
 #: www/views/tab-create-personal.html:94
 #: www/views/tab-import-phrase.html:55
 msgid "Testnet"
-msgstr "Testnet"
+msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
 #: src/js/controllers/feedback/send.js:76
@@ -2522,7 +2522,7 @@ msgstr ""
 
 #: www/views/modals/wallet-balance.html:23
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #: www/views/walletDetails.html:183
 msgid "Total Locked Balance"
@@ -3057,4 +3057,3 @@ msgstr ""
 #: www/views/includes/walletInfo.html:12
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}-de-{{wallet.n}}"
-
