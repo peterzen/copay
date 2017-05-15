@@ -17,6 +17,7 @@ angular.module('copayApp.controllers').controller('importController',
       $scope.formData.account = 1;
       $scope.importErr = false;
       $scope.isCopay = appConfigService.name == 'copay';
+      $scope.isDecred = appConfigService.name == 'decred';
 
       if ($stateParams.code)
         $scope.processWalletInfo($stateParams.code);
