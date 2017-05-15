@@ -87,3 +87,10 @@ $v-tab-send-selected-icon:                           url('../img/app/tab-icons/i
 
 @import "walletBalance.scss";
 @import "tabs.scss";
+
+body .scroll {
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}
