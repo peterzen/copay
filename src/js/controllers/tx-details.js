@@ -19,7 +19,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
     listeners = [
       $rootScope.$on('bwsEvent', function(e, walletId, type, n) {
-        if (type == 'NewBlock' && n && n.data && n.data.network == 'livenet') {
+        if (type == 'NewBlock' && n && n.data && n.data.network == 'dcrdlivenet') {
           updateTx({hideLoading: true});
         }
       })
@@ -166,7 +166,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
   $scope.getShortNetworkName = function() {
     var n = $scope.wallet.credentials.network;
-    return n.substring(0, 4);
+    return n.substring(4, 8);
   };
 
   var getFiatRate = function() {
