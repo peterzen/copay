@@ -21,8 +21,8 @@ angular.module('copayApp.directives')
               var isUriValid = URI.isValid(value);
               if (isUriValid) {
                 uri = new URI(value);
-                isAddressValidLivenet = Address.isValid(uri.address.toString(), 'livenet')
-                isAddressValidTestnet = Address.isValid(uri.address.toString(), 'testnet')
+                isAddressValidLivenet = Address.isValid(uri.address.toString(), 'dcrdlivenet')
+                isAddressValidTestnet = Address.isValid(uri.address.toString(), 'dcrdtestnet')
               }
               ctrl.$setValidity('validAddress', isUriValid && (isAddressValidLivenet || isAddressValidTestnet));
               return value;
@@ -34,8 +34,8 @@ angular.module('copayApp.directives')
             }
 
             // Regular Address
-            var regularAddressLivenet = Address.isValid(value, 'livenet');
-            var regularAddressTestnet = Address.isValid(value, 'testnet');
+            var regularAddressLivenet = Address.isValid(value, 'dcrdlivenet');
+            var regularAddressTestnet = Address.isValid(value, 'dcrdtestnet');
             ctrl.$setValidity('validAddress', (regularAddressLivenet || regularAddressTestnet));
             return value;
           };
