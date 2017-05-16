@@ -83,7 +83,7 @@ angular.module('copayApp.services').factory('openURLService', function($rootScop
 
       if (navigator.registerProtocolHandler) {
         $log.debug('Registering Browser handlers base:' + base);
-        navigator.registerProtocolHandler('decred', url, 'Decred Wallet Handler');
+        navigator.registerProtocolHandler('web+decred', url, 'Decred Wallet Handler');
       }
     }
   };
