@@ -1,0 +1,17 @@
+
+// hide fee level selection in Preferences tab
+[ui-sref="tabs.fee"] {
+  display: none !important;
+}
+
+// fix for wallet restore UI issue
+// https://github.com/decred/copay/issues/58
+body #wallet-backup-phrase-step-2 .confirmation-prompt {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+body #wallet-backup-phrase-step-2 #select-phrase .select-word.button[disabled] {
+  display: none !important;
+}

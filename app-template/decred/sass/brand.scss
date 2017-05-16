@@ -1,0 +1,34 @@
+
+html {
+  body {
+    font-family: "Source Sans Pro";
+  }
+
+  body {
+    .wallet-balance__amount, .amount__balance {
+      font-family:'Inconsolata' !important;
+    }
+    .amount-label {
+      > .amount, > .unit  {
+        font-family:'Inconsolata' !important;
+      }
+    }
+
+    .pane, .view {
+      background-color: #f3f6f6;
+    }
+
+    .tab-nav.tabs {
+      background-color: #0c1e3e;
+
+
+    }
+    .bar-header {
+      .back-button {
+        .icon:before {
+          color: #c4cbd2;
+        }
+      }
+    }
+  }
+}
