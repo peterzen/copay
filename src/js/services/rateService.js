@@ -44,7 +44,7 @@ RateService.prototype._fetchCurrencies = function() {
 
   var backoffSeconds = 5;
   var updateFrequencySeconds = 5 * 60;
-  var rateServiceUrl = 'https://bws.decred.org/bws/api/v1/fiatrates/USD';
+  var rateServiceUrl = 'https://insight-dev.prioritylane.net/bws/api/v1/fiatrates/USD';
 
   var retrieve = function() {
     //log.info('Fetching exchange rates');
