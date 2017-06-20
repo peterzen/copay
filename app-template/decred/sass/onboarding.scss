@@ -38,6 +38,7 @@ body {
         margin: 5rem auto 0;
       }
       #lead {
+        max-width: 300px;
         color: #ffffff;
         line-height: 1.25;
         font-size: 36px;
@@ -90,7 +91,7 @@ body {
   .onboarding {
     .onboarding-illustration {
       max-width: 320px;
-      margin: 5px auto;
+      margin: 20px auto 5px auto;
     }
     .onboarding-topic {
       color: #ffffff;
