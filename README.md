@@ -136,7 +136,10 @@ On success, the Chrome extension will be located at: `browser-extensions/chrome/
 
 ## Web application deployment
 
+**Requirements:** make sure to run the build on `node` v7.  On v6, the build completes without error but the app won't start due to a `bitcore` related requirement error.
+
 ```sh
+npm run clean-all
 npm run apply:decred
 npm run final:www
 ```
