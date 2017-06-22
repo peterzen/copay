@@ -139,16 +139,10 @@ On success, the Chrome extension will be located at: `browser-extensions/chrome/
 **Requirements:** make sure to run the build on `node` v7.  On v6, the build completes without error but the app won't start due to a `bitcore` related requirement error.
 
 ```sh
-npm run clean-all
-npm run apply:decred
-npm run final:www
+npm run webwallet:release
 ```
 
-This will build the production app under `www/` which can be served by any web server such as nginx or Apache:
-
-```sh
-rsync -ra www/ <web server root>/
-```
+This will build the production app and create a tarball of the static content which can be served by any web server such as nginx or Apache.
 
 ## Configuration
 
