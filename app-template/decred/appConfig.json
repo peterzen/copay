@@ -22,7 +22,7 @@
   "windowsAppId": "804636ee-b017-4cad-8719-e58ac97ffa5c",
   "pushSenderId": "31679606073",
   "description": "Decred Webwallet",
-  "version": "3.5.0",
+  "version": "3.5.0-1",
   "androidVersion": "306000",
   "_extraCSS": null,
   "_enabledExtensions": {
