@@ -2696,7 +2696,7 @@ msgstr ""
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
-msgstr "Type the Recovery Phrase (usually 12 words)"
+msgstr "Type the Recovery Phrase (usually 33 words)"
 
 #: src/js/controllers/backup.js:75
 msgid "Uh oh..."
