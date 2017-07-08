@@ -2,7 +2,7 @@
 FROM centos:latest
 
 LABEL description="Copay builder image"
-LABEL version="3.5.0"
+LABEL version="3.6.0"
 LABEL maintainer "peter@froggle.org"
 
 ENV NODE_VERSION v7.10.0
