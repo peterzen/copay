@@ -117,6 +117,8 @@
     "test":                   "echo \"no package tests configured\"",
     "clean":                  "trash platforms && trash plugins && cordova prepare",
     "unstage-package":        "git reset package.json",
+    "transifex:pull":         "tx pull -a",
+    "transifex:push":         "grunt nggettext_extract && tx push -s",
     "clean-all":              "git clean -dfx"
   },
   "devDependencies": {
