@@ -835,7 +835,7 @@ msgid ""
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 msgstr ""
-"Each Decred wallet can generate billions of addresses from your 12-word "
+"Each Decred wallet can generate billions of addresses from your 33-word "
 "backup. A new address is automatically generated and shown each time you "
 "receive a payment."
 
@@ -1398,7 +1398,7 @@ msgid ""
 "quantum computers."
 msgstr ""
 "It's a good idea to avoid reusing addresses - this both protects your "
-"privacy and keeps your Decreds secure against hypothetical attacks by "
+"privacy and keeps your Decred secure against hypothetical attacks by "
 "quantum computers."
 
 #: src/js/controllers/backup.js:76
