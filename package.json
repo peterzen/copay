@@ -5,6 +5,9 @@
   "pre-commit": "unstage-package",
   "changes": "changes to this file can be commited with the --no-verify option",
   "scripts": {
+    "deploy:build:builder":   "docker build -t decred/copay-builder -f Dockerfiles/Dockerfile-builder . && docker run --rm -v `pwd`/dist:/dist decred/copay-builder",
+    "deploy:build:release":   "./webwallet-release.sh",
+    "deploy:build:docker":    "npm run deploy:build:builder && docker build -f Dockerfiles/Dockerfile-production -t decred/webwallet .",
     "postinstall": "npm run apply:decred && echo && echo \"Repo configured for standard Decred distribution.\" && echo",
     "start": "echo && echo \"Choose a distribution by running 'npm run apply:decred'.\" && echo",
     "apply:copay": "npm i fs-extra@0.30 && cd app-template && node apply.js copay && cd .. && npm i",

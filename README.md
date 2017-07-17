@@ -136,14 +136,24 @@ On success, the Chrome extension will be located at: `browser-extensions/chrome/
 
 ## Web application deployment
 
+### Dockerized build
+
+To build a docker image tagged `decred/webwallet`, which is based on [library/nginx](https://hub.docker.com/_/nginx/):
+
+```sh
+npm run deploy:build:docker
+```
+
+### Build without using docker
+
 **Requirements:** make sure to run the build on `node` v7.  On v6, the build completes without error but the app won't start due to a `bitcore` related requirement error.
 
 ```sh
-npm run apply:decred
-npm run webwallet:release
+npm run deploy:build:release
 ```
 
 This will build the production app and create a tarball of the static content which can be served by any web server such as nginx or Apache.
+
 
 ## Configuration
 

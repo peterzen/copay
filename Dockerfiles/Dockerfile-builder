@@ -11,11 +11,12 @@ ENV USER build
 
 RUN yum install -y git
 
-RUN adduser build
+RUN adduser $USER
 
-# create directory to get source from
-RUN mkdir /src && \
-    chown $USER /src
+# create work directory
+RUN mkdir /src
+COPY . /src
+RUN chown -R $USER /src
 
 # switch user
 USER $USER

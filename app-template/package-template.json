@@ -101,8 +101,6 @@
     "open:ios":               "open platforms/ios/*.xcodeproj",
     "open:android":           "open -a open -a /Applications/Android\\ Studio.app platforms/android",
     "final:www":              "npm run build:www-release",
-    "webwallet:build:docker": "docker build -t decred/copay-builder . && docker run -v `pwd`:/src decred/copay-builder",
-    "webwallet:release":      "./webwallet-release.sh",
     "final:ios":              "npm run final:www && npm run build:ios-release && npm run open:ios",
     "final:android":          "npm run final:www && npm run build:android-release && npm run sign:android && npm run run:android-release",
     "final:windows":          "npm run final:www && npm run build:windows-release",

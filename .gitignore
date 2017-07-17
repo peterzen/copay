@@ -109,3 +109,4 @@ www/index.html
 
 # release bundles
 /webwallet*.tar.gz
+dist
