@@ -1,0 +1,11 @@
+FROM nginx:latest
+
+LABEL description="Copay deployment image"
+LABEL version="3.6.0"
+LABEL maintainer "peter@froggle.org"
+
+COPY Dockerfiles/copay.nginx.conf /etc/nginx/conf.d/default.conf
+
+RUN mkdir -p /var/www/html
+
+COPY dist/ /var/www/html/
