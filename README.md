@@ -5,7 +5,7 @@
 
 Decred Webwallet is a secure [Decred](https://www.decred.org) wallet platform for both desktop and mobile devices. It is based on the [Copay](https://copay.io) wallet and uses [Bitcore Wallet Service](https://github.com/decred/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
-[![CircleCI](https://circleci.com/gh/peterzen/copay.svg?style=svg&circle-token=c49a9f8f5107673ff6228981860e07c3db059a71)]
+[![CircleCI](https://circleci.com/gh/peterzen/copay.svg?style=svg&circle-token=c49a9f8f5107673ff6228981860e07c3db059a71)](https://circleci.com/gh/peterzen/copay)
 
 ## Main Features
 
