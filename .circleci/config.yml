@@ -14,19 +14,6 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
-      - run: npm config set loglevel warn
       - run: npm run apply:decred
       - run: node_modules/.bin/cordova telemetry off
       - run: npm run final:www
@@ -38,6 +25,25 @@ jobs:
       - run: docker login --username=_ --password=$HEROKU_TOKEN registry.heroku.com
       - run: docker tag decred/webwallet:latest registry.heroku.com/dcrwallet/web
       - run: docker push registry.heroku.com/dcrwallet/web
+
+  build_android-app:
+    docker:
+      - image: bitriseio/docker-android
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - run: npm run apply:decred
+      - run: node_modules/.bin/cordova telemetry off
+      - run: npm run final:www
+      - run: cp -r www dist
+
+      - run: npm run build:android
+
+      - store_artifacts:
+          path: /bitrise/src/repo/platforms/android/build/outputs/apk
 
 workflows:
   version: 2
