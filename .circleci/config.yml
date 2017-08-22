@@ -17,7 +17,7 @@ jobs:
       - run: npm run apply:decred
       - run: node_modules/.bin/cordova telemetry off
       - run: npm run final:www
-      - run: cp -r www dist
+      - run: rm -rf dist && cp -r www/ dist/
 
       - setup_remote_docker
 
@@ -26,7 +26,7 @@ jobs:
       - run: docker tag decred/webwallet:latest registry.heroku.com/dcrwallet/web
       - run: docker push registry.heroku.com/dcrwallet/web
 
-  build_android-app:
+  build_android_app:
     docker:
       - image: bitriseio/docker-android
 
@@ -38,12 +38,12 @@ jobs:
       - run: npm run apply:decred
       - run: node_modules/.bin/cordova telemetry off
       - run: npm run final:www
-      - run: cp -r www dist
-
+      - run: rm -rf dist && cp -r www/ dist/
       - run: npm run build:android
 
       - store_artifacts:
           path: /bitrise/src/repo/platforms/android/build/outputs/apk
+          destination: android
 
 workflows:
   version: 2
@@ -53,3 +53,6 @@ workflows:
           filters:
             tags:
               only: /^STAGING_.*/
+      - build_android_app:
+          requires:
+            - build_webwallet
