@@ -36,6 +36,7 @@ jobs:
       - checkout
 
       - run: npm run apply:decred
+      - run: node_modules/.bin/bower install --allow-root
       - run: node_modules/.bin/cordova telemetry off
       - run: npm run final:www
       - run: rm -rf dist && cp -r www/ dist/
