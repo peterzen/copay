@@ -5,7 +5,7 @@
 #  1/4a6fc49a88361847209c851b0b40552c51aab97f
 version: 2
 jobs:
-  build:
+  build_webwallet:
     docker:
       - image: circleci/node:7.10
 
@@ -21,23 +21,29 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - setup_remote_docker
-
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn deploy:build:docker
+      - run: npm config set loglevel warn
+      - run: npm run apply:decred
+      - run: node_modules/.bin/cordova telemetry off
+      - run: npm run final:www
+      - run: cp -r www dist
+
+      - setup_remote_docker
+
+      - run: docker build -f Dockerfiles/Dockerfile-production -t decred/webwallet .
       - run: docker login --username=_ --password=$HEROKU_TOKEN registry.heroku.com
-      - run: docker tag decred/dcrwallet:latest registry.heroku.com/dcrweb/web
+      - run: docker tag decred/webwallet:latest registry.heroku.com/dcrwallet/web
       - run: docker push registry.heroku.com/dcrwallet/web
 
 workflows:
   version: 2
   build-test-and-deploy:
     jobs:
-      - build:
+      - build_webwallet:
           filters:
             tags:
               only: /^STAGING_.*/
