@@ -14,8 +14,20 @@ jobs:
     steps:
       - checkout
 
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
       - run: npm run apply:decred
       - run: node_modules/.bin/cordova telemetry off
+
+      - save_cache:
+          paths:
+            - node_modules
+            - bower_components
+          key: v1-dependencies-{{ checksum "package.json" }}
+
       - run: npm run final:www
       - run: rm -rf dist && cp -r www/ dist/
 
